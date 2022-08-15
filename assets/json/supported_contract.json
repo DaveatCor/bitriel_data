@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "selendra",
         "name": "SELENDRA",
         "logo": "assets/SelendraCircle-Blue.png",
@@ -9,8 +8,11 @@
         "symbol": "SEL",
         "org": "Selendra Chain",
         "org_test": "Testnet",
-        "show": false,
-        "isContain": true
+        "balance": "0.0",
+        "show": true,
+        "isContain": true,
+        "max_supply": "3,141,592,653",
+        "description": "SEL is the native token, unit of account, and fuel to operate on Selendra Blockchain system. While Selendra as the system will bridge to the outside blockchains, allows it users to liquidate and transact with anyone that interacts on the Internet."
     },
     {
         "id": "selendra",
@@ -19,10 +21,14 @@
         "contract_test": "0xa7f2421fa3d3f31dbf34af7580a1e3d56bcd3030",
         "address": "",
         "logo": "assets/SelendraCircle-Blue.png",
-        "symbol": "SEL",
+        "symbol": "SEL (v1)",
         "org": "BEP-20",
         "org_test": "BEP-20",
-        "isContain": true
+        "balance": "0.0",
+        "isContain": true,
+        "show": false,
+        "max_supply": "",
+        "description": ""
     },
     {
         "id": "selendra v2",
@@ -34,7 +40,11 @@
         "symbol": "SEL (v2)",
         "org": "BEP-20",
         "org_test": "BEP-20",
-        "isContain": true
+        "balance": "0.0",
+        "isContain": true,
+        "show": false,
+        "max_supply": "",
+        "description": ""
     },
     {
         "id": "kiwigo",
@@ -46,19 +56,27 @@
         "symbol": "KGO",
         "org": "BEP-20",
         "org_test": "BEP-20",
-        "isContain": true
+        "balance": "0.0",
+        "isContain": true,
+        "show": true,
+        "max_supply": "",
+        "description": "KiwiGo is a super-app for frontier markets that provides a wide array of services empowering local businesses and individuals in their daily lives, from e-wallet, ride-hailing, food and grocery delivery, last-mile delivery, news aggregator, classifieds to in-app."
     },
     {
         "id": "ethereum",
         "name": "Ethereum",
-        "contract": "",
+        "contract": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
         "contract_test": "",
         "address": "",
         "logo": "assets/eth.png",
         "symbol": "ETH",
         "org": "",
         "org_test": "",
-        "isContain": true
+        "balance": "0.0",
+        "show": true,
+        "isContain": true,
+        "max_supply": "",
+        "description": "Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. Among cryptocurrencies, Ether is second only to Bitcoin in market capitalization. Ethereum was conceived in 2013 by programmer Vitalik Buterin."
     },
     {
         "id": "binance smart chain",
@@ -69,8 +87,12 @@
         "logo": "assets/logo/bnb.png",
         "symbol": "BNB",
         "org": "Smart Chain",
-        "org_test": "Testnet",
-        "isContain": true
+        "org_test": "",
+        "balance": "0.0",
+        "show": true,
+        "isContain": true,
+        "max_supply": "",
+        "description": "Binance Coin is the cryptocurrency issued by Binance exchange and trades with the BNB symbol. As of Q2 2022, Binance Exchange is the largest cryptocurrency exchange in the world, with a volume of $7.6 billion."
     },
     {
         "id": "polkadot",
@@ -81,9 +103,12 @@
         "address": "",
         "logo": "assets/icons/polkadot.png",
         "org": "",
-        "org_test": "BEP-20",
+        "org_test": "",
         "balance": "0.0",
-        "isContain": true
+        "show": true,
+        "isContain": true,
+        "max_supply": "",
+        "description": "Polkadot is an open source blockchain platform and cryptocurrency. It provides interconnectivity and interoperability between blockchains, by enabling independent chains to securely exchange messages and perform transactions with each other without a trusted third-party."
     },
     {
         "id": "bitcoin",
@@ -96,7 +121,26 @@
         "org": "",
         "org_test": "",
         "balance": "0.0",
-        "isContain": true
+        "show": true,
+        "isContain": true,
+        "max_supply": "",
+        "description": "Bitcoin is a decentralized digital currency that can be transferred on the peer-to-peer bitcoin network. Bitcoin transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain."
+    },
+    {
+        "id": "rekreay",
+        "symbol": "REKREAY",
+        "name": "Rekreay",
+        "contract": "0x9B71571dd5967878356Cab2Bb2E860Fa81Ce46f0",
+        "contract_test": "",
+        "address": "",
+        "logo": "assets/logo/rekreay.jpeg",
+        "org": "BEP-20",
+        "org_test": "BEP-20",
+        "balance": "0.0",
+        "show": true,
+        "isContain": true,
+        "max_supply": "",
+        "description": "REKREAY is a decentralized financial payment network that rebuilds the traditional payment stack on the blockchain. It utilizes a basket of fiat-pegged stablecoins, algorithmically stabilized by its reserve currency REKREAY, to facilitate programmable payments and open financial infrastructure development. As of December 2020, the network has transacted an estimated $299 billion for over 2 million users."
     },
     {
         "id": "attendant",
@@ -107,7 +151,11 @@
         "logo": "assets/attd_fingerprint.png",
         "symbol": "ATT",
         "org": "BEP-20",
+        "balance": "0.0",
         "org_test": "BEP-20",
-        "isContain": true
+        "show": false,
+        "isContain": false,
+        "max_supply": "",
+        "description": ""
     }
 ]
